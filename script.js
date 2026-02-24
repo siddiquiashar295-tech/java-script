@@ -198,3 +198,243 @@ question=13
 // var totalSnacksNeeded = (maxAge - currentAge) * 365 * amountPerDay;
 // document.write("You will need " + totalSnacksNeeded + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge);
 
+chapter = 6-8
+
+question=1
+// var a = 10;
+// var b = 5;
+// var c = a + b;
+
+// var a = 10;
+// var b = 5;
+// var c = a - b;
+
+// var a = 10;
+// var b = 5;
+// var c = a * b;
+
+// var a = 10;
+// var b = 5;
+// var c = a / b;
+
+// var a = 10;
+// var b = 5;
+// var c = a % b;
+
+// var a = 10;
+// var b = 5;
+// var c = a++ + ++a - b-- + --b;
+// document.write("The result is: " + c);
+
+// var a = 2;
+// var b = 1;
+// var result = --a - --b + ++b + b--;
+// document.write("The result is: " + result);
+
+question=2
+// a: 0
+// b: 1
+// result: 1
+
+// var result = --a - --b + ++b + b--;
+
+
+question=3
+// var name = prompt("Enter your name:");
+// alert("Hello, " + name + "! Welcome to JavaScript!");
+
+question=4
+// var number = prompt("Enter a number to show its multiplication table:");
+// number = parseInt(number);
+// if (isNaN(number)) { 
+//     number = 5; // Default to 5 if input is not a valid number
+// }
+// document.write("Multiplication Table of " + number + "<br>");
+// for (var i = 1; i <= 10; i++) {
+//     document.write(number + " x " + i + " = " + (number * i) + "<br>");
+// }
+
+question=5
+// var subject1 = prompt("Enter name of subject 1:");
+// var subject2 = prompt("Enter name of subject 2:");
+// var subject3 = prompt("Enter name of subject 3:");
+// var totalMarks = 100;
+// var marks1 = parseInt(prompt("Enter marks obtained in " + subject1 + ":"));
+// var marks2 = parseInt(prompt("Enter marks obtained in " + subject2 + ":"));
+// var marks3 = parseInt(prompt("Enter marks obtained in " + subject3 + ":"));
+// var percentage1 = (marks1 / totalMarks) * 100;
+// var percentage2 = (marks2 / totalMarks) * 100;
+// var percentage3 = (marks3 / totalMarks) * 100;
+
+question=6
+// var totalMarks = 300;
+// var marks1 = parseInt(prompt("Enter marks obtained in subject 1:"));
+// var marks2 = parseInt(prompt("Enter marks obtained in subject 2:"));
+// var marks3 = parseInt(prompt("Enter marks obtained in subject 3:"));
+// var totalObtained = marks1 + marks2 + marks3;
+// var percentage = (totalObtained / totalMarks) * 100;
+
+chapter=9-11
+
+question=1
+// var city = prompt("Enter city name:");
+// if (city.toLowerCase() === "karachi") {
+//     alert("Welcome to the city of lights!");
+// }
+
+question=2  
+// var gender = prompt("Enter your gender (male/female):");
+// if (gender.toLowerCase() === "male") {
+//     alert("Good Morning Sir.");          
+// } else if (gender.toLowerCase() === "female") {
+//     alert("Good Morning Ma'am.");          
+// } else {
+//     alert("Good Morning!");
+// }
+
+question=3
+// var trafficSignal = prompt("Enter traffic signal color (red/yellow/green):");
+// if (trafficSignal.toLowerCase() === "red") {
+//     alert("Must Stop");
+// } else if (trafficSignal.toLowerCase() === "yellow") {
+//     alert("Ready to move");
+// } else if (trafficSignal.toLowerCase() === "green") {
+//     alert("Move now");
+// } else {
+//     alert("Invalid color");
+// }    
+
+question=4
+// var fuel = parseFloat(prompt("Enter remaining fuel in liters:"));
+// if (fuel < 0.25) {
+//     alert("Please refill the fuel in your car");
+// } else {
+//     alert("You have enough fuel");
+// }
+
+question=5
+// var a = 4;
+// if (++a === 5) {
+//     alert("given condition for variable a is true");
+// }
+
+// var b = 82;
+// if (b++ === 83) {
+//     alert("given condition for variable b is true");
+// }
+
+// var c = 12;
+// if (c++ === 13) {
+//     alert("condition 1 is true");    
+// }
+
+// if (c === 13) {
+//     alert("condition 2 is true");
+// }
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost) {
+//     alert("The cost equals");
+// }
+
+// if (true) {
+//     alert("True");
+// }    
+// if (false) {
+//     alert("False");
+// }
+
+// if ("car" < "cat") {
+//     alert("car is smaller than cat");
+// }
+
+question=6
+// var marks1 = parseInt(prompt("Enter marks obtained in subject 1:"));
+// var marks2 = parseInt(prompt("Enter marks obtained in subject 2:"));
+// var marks3 = parseInt(prompt("Enter marks obtained in subject 3:"));
+// var totalMarks = 300;
+// var totalObtained = marks1 + marks2 + marks3;
+// var percentage = (totalObtained / totalMarks) * 100;
+// var grade, remarks;
+// if (percentage >= 80) {
+//     grade = "A-one";
+//     remarks = "Excellent";
+// } else if (percentage >= 70) {
+//     grade = "A";
+//     remarks = "Good";
+// } else if (percentage >= 60) {
+//     grade = "B";
+//     remarks = "You need to improve";
+// } else {
+//     grade = "Fail";
+//     remarks = "Sorry";
+// } 
+// console.log("Total Marks: " + totalMarks);
+// console.log("Marks Obtained: " + totalObtained);
+// console.log("Percentage: " + percentage.toFixed(2) + "%");
+// console.log("Grade: " + grade);
+// console.log("Remarks: " + remarks);
+
+question=7
+// var secretNumber = 7;
+// var userGuess = parseInt(prompt("Guess the secret number (between 1 and 10):"));
+// if (userGuess === secretNumber) {
+//     alert("Bingo! Correct answer.");
+// } else if (userGuess === secretNumber + 1 || userGuess === secretNumber - 1) {
+//     alert("Close enough to the correct answer.");
+// } else {
+//     alert("Wrong guess. Try again!");
+// }
+
+question=8
+// var number = parseInt(prompt("Enter a number:"));
+// if (number % 3 === 0) {  
+//     alert(number + " is divisible by 3");
+// } else {
+//     alert(number + " is not divisible by 3");
+// }
+
+question=9
+// var number = parseInt(prompt("Enter a number:"));
+// if (number % 2 === 0) {
+//     alert(number + " is an even number");
+// } else {
+//     alert(number + " is an odd number");
+// }
+
+question=10
+// var temperature = parseFloat(prompt("Enter the temperature:"));
+// if (temperature > 40) {
+//     alert("It is too hot outside.");
+// } else if (temperature > 30) {
+//     alert("The Weather today is Normal.");
+// } else if (temperature > 20) {
+//     alert("Today’s Weather is cool.");
+// } else if (temperature > 10) {
+//     alert("OMG! Today’s weather is so Cool.");
+// } else {
+//     alert("It's very cold outside.");
+// }
+
+question=11
+// var firstNumber = parseFloat(prompt("Enter first number:"));
+// var secondNumber = parseFloat(prompt("Enter second number:"));
+// var operation = prompt("Enter operation (+, -, *, /):");
+// var result;
+// if (operation === "+") {
+//     result = firstNumber + secondNumber;
+// } else if (operation === "-") {
+//     result = firstNumber - secondNumber;
+// } else if (operation === "*") {
+//     result = firstNumber * secondNumber;
+// } else if (operation === "/") {
+//     result = firstNumber / secondNumber;
+// } else {
+//     alert("Invalid operation");
+// }    
+// if (result !== undefined) {
+//     alert("The result of " + firstNumber + " " + operation + " " + secondNumber + " is: " + result);
+// }
+
