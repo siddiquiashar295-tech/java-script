@@ -396,7 +396,7 @@ question=8
 //     alert(number + " is not divisible by 3");
 // }
 
-question=9
+// question=9
 // var number = parseInt(prompt("Enter a number:"));
 // if (number % 2 === 0) {
 //     alert(number + " is an even number");
@@ -404,7 +404,7 @@ question=9
 //     alert(number + " is an odd number");
 // }
 
-question=10
+// question=10
 // var temperature = parseFloat(prompt("Enter the temperature:"));
 // if (temperature > 40) {
 //     alert("It is too hot outside.");
@@ -418,7 +418,7 @@ question=10
 //     alert("It's very cold outside.");
 // }
 
-question=11
+// question=11
 // var firstNumber = parseFloat(prompt("Enter first number:"));
 // var secondNumber = parseFloat(prompt("Enter second number:"));
 // var operation = prompt("Enter operation (+, -, *, /):");
@@ -437,4 +437,373 @@ question=11
 // if (result !== undefined) {
 //     alert("The result of " + firstNumber + " " + operation + " " + secondNumber + " is: " + result);
 // }
+
+CHAPTER=12-13
+
+// question=1
+
+// let input = prompt("enter a single character")
+// let ASCII = input.charCoderAt(0);
+
+// if (ASCII >= 48 && ASCII <= 57){
+//     console.log("it is a number" );
+// }
+
+// else if(ASCII >= 65 && ASCII <=90){
+//     console.log("it is an upper case letter");
+// }
+
+// else if( ASCII >= 97 && ASCII <= 122){
+//     console.log("it is A lower case letter");
+// }
+
+// else{
+//     console.log("it is neither a number nor a letter .");
+// }
+
+// question=2
+
+// let num1= prompt ("enter first integer")
+// let num2= prompt ("enter second integer")
+
+// if (num1 > num2){
+//     console.log("first number is larger: " +  num1)
+// }
+
+// else if(num2 > num1){
+//     console.log("second number is larger: " + num2)
+// }
+
+// else{
+//     console.log("both number are equal")
+// }
+
+// question=3
+
+// let number= prompt ("enter number")
+
+// if (number > 0){
+//     console.log("number is positive." );
+// }
+
+// else if(number < 0){
+//     console.log("number is negative.");
+// }
+
+// else {
+//     console.log("number is zero,")
+// }
+
+// question=4
+
+// let char = prompt("enter a single character")
+
+// if (char. length === 1 && 
+//     (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') ){
+//         console.log(true);
+//     }
+
+// else{
+//     console.log("false")
+// }
+
+// question=5
+
+// let correctpassword = "Ashar12345"
+
+// let userPassword = prompt("enter your password")
+
+// if(userPassword === null || userPassword === ""){
+//     console.log("please enter your password")
+// }
+
+// else{
+//     if(userPassword === correctpassword){
+//         console.log("correct! The passowrd you enterd matches the original password");
+//     }
+//     else{
+//         console.log("incorrect password")
+//     }
+// }
+
+// question=6
+
+// var greeting;
+// var hour = prompt("enter you time")
+
+
+// if (hour < 18){
+//     greeting = "good day";
+// } else {
+//     greeting = "good evening";      
+// }
+
+// console.log(greeting);
+
+// question=7
+
+
+// let time = prompt("enter you time in 24-hour format");
+
+// if(time > 0 && time < 11){
+//     console.log("good morning ")
+// }
+// else if (time >= 12 && time < 16){
+//     console.log("good afternoon");
+// }
+// else if (time >= 17 && time < 20){
+//     console.log("good evening");
+// }
+
+// else if (time >= 21 && time <= 24){
+//     console.log("good night");
+// }
+
+// else{
+//     console.log("invalid format");
+// }
+
+
+CHAPTER=14 - 16
+
+// question=1
+
+// let studentnames = [ ];
+
+// question=2
+
+// let studentnameObj =  new Array();
+
+// question=3
+
+// let fruits = ["apple", "mango", "banana", "peach"];
+
+// question=4
+
+// let numbers = [10, 15, 20, 25, 30];
+
+// question=5
+
+// let flags =[true, false];
+
+// question=6
+
+// let mixedarray = ["ali", 20 ,true ,null];
+
+// question=7
+
+// let qualification = ["ssc", "hsc", "bsc", "bs", "bcom", "ms", "m.phill", "phd"];
+// for (let i = 0; i < qualification.length; 1++){
+//     console.log(qualification[i]);
+// }
+
+// question=8
+
+// let student = ["michael", "john", "tony"];
+// let marks = [230, 320, 480];
+// let totalMarks = 500;
+
+// for (let i = 0; i < student.length; i++){
+//     let percentage = (marks[i] / totalMarks) * 100;
+
+
+// console.log("score of " + student[i] + is + marks[i] + percentage + "%");
+// }
+
+// question=9
+
+// let colors = ["red", "green", "blue", "yellow"];
+// console.log("<b>initial colors:</b> " + colors + "<br><br>");
+
+// let addstart = prompt("which color you want to add at thne beginning ?");
+// colors.unshift(addstart);
+// console.log("<b>after adding at beginning:</b> " + colors + ",br><br>");
+
+// let addend = prompt("which coolor do you want to add at the end?");
+// colors.push(addend);
+// console.log("<b>after deleting first color:</b> " + colors + <br></br>);
+
+// colors.unshift("purple", "orange");
+// console.log("<b>after adding two more colors at beginning:</b>" + colors+ "<br<br>");
+
+// colors.shift();
+// console.log("<b>after deleting first color:</b>" + colors + "<br><br>");
+
+// colors.pop();
+// console.log("<b>after deleting last color:</br> " + colors + "<br><br>");
+
+// let indexAdd = +prompt("At which index do you want to add a color?");
+// let colorName = prompt("Enter the color name:");
+// colors.splice(indexAdd, 0, colorName);
+// console.log("<b>After adding color at index " + indexAdd + ":</b> " + colors + "<br><br>");
+
+// let indexDelete = +prompt("At which index do you want to delete color(s)?");
+// let deleteCount = +prompt("How many colors do you want to delete?");
+// colors.splice(indexDelete, deleteCount);
+// console.log("<b>After deleting color(s):</b> " + colors + "<br><br>");
+
+// question=10 
+
+// let scores = [320, 230, 480, 120];
+
+// console.log("<b>Scores of Students:</b> " + scores + "<br><br>");
+// scores.sort(function(a, b) {
+//     return a - b;
+// });
+
+// console.log("<b>Ordered Scores of Students:</b> " + scores);
+
+// question=11
+
+// let cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+
+// console.log("<b>Cities List:</b> " + cities + "<br><br>");
+
+// let selectedCities = cities.slice(0, 3);
+
+// console.log("<b>Selected Cities:</b> " + selectedCities);
+
+
+// question=12
+
+// var arr = ["This ", " is ", " my ", " cat"];
+// console.log("<b>Array:</b> " + arr + "<br><br>");
+// var singleString = arr.join("");
+// console,log("<b>String:</b> " + singleString);
+
+
+// question=13
+
+// let queue = [];
+// queue.push("Keyboard");
+// queue.push("Mouse");
+// queue.push("Printer");
+// queue.push("Monitor");
+
+// console.log("<b>Queue Values:</b> " + queue + "<br><br>");
+
+// console.log("<b>Accessing Values (FIFO Order):</b><br>");
+
+// console.log(queue.shift() + "<br>");
+
+// console.log(queue.shift() + "<br>");
+
+// console.log(queue.shift() + "<br>");
+
+// console.log.write(queue.shift() + "<br>");
+
+// question=14
+
+
+// let stack = [];
+// stack.push("Keyboard");
+// stack.push("Mouse");
+// stack.push("Printer");
+// stack.push("Monitor");
+
+
+// console.log("<b>Stack Values:</b> " + stack + "<br><br>");
+// console.log("<b>Accessing Values (LIFO Order):</b><br>");
+// console.log(stack.pop() + "<br>");
+// console.log(stack.pop() + "<br>");
+// console.log(stack.pop() + "<br>");
+// console.log(stack.pop() + "<br>");
+
+
+// class: task
+
+// let student = ["salman", "suleman", "shariq", "siddiqui", "ebad", "rafay"];
+// console.log(student)
+
+// student [student.length -1] = "ashar"
+
+// console.log(student)
+
+chapter=17-19
+
+// question=1
+
+// let multiArray = []
+// console.log("multiArray")
+
+// question=2
+ 
+// const matrix = [
+//     [0, 1, 2, 3],
+//     [1, 0, 1, 2],
+//     [2, 1, 0, 1],
+// ];
+// console.log(matrix)
+
+// question=3
+
+// for (let i = 1; 1<= 10; i++) {
+//     console.log(i);
+// }  
+
+// question=4
+
+// // function generateMultiplicationTabel() {
+// //     const numberInput = prompt('enter the integer multiplication tabel:');
+// //     const number = parseInt(numberInput);
+
+// //     const rangeInput = prompt('enter the desire lenght (range) of the tabel:');
+// //     const range = parseInt(rangeInput);
+
+// //     if (isNaN(Number) || isNaN(range)){
+// //         console.log("invalid input. Please enter valid numbers.");
+// //         return;
+// //     }
+
+// //     console.log('\nMultiplication tabel of ${number} up to ${range}:');
+
+// //     for (let i = 1; i <= range; i++) {
+// //         const result = i * number;
+// //         console.log('${number} * ${i} = ${result}');
+// //     }
+// // }
+
+// question=5
+
+// let fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+// console.log(fruits)
+
+// question=6
+
+// const printSeries = (title, series) => {
+//     console.log($ {title}: ${series.join(', ')});
+// };
+
+// const counting = Array.from({length: 15}, (_, i) => i + 1);
+// printSeries("a. Counting", counting);
+
+// const reverseCounting = Array.from({length: 10}, (_, i) => 10 - i);
+// printSeries("b. Reverse counting", reverseCounting);
+
+// const even = Array.from({length: 11}, (_, i) => i * 2);
+// printSeries("c. Even", even);
+
+// const odd = Array.from({length: 10}, (_, i) => i * 2 + 1);
+// printSeries("d. Odd", odd);
+
+// const seriesK = Array.from({length: 10}, (_, i) => (i + 1) * 2 + "k");
+// printSeries("e. Series", seriesK);
+
+// question=7
+
+// const A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// const userInput = prompt("Enter an item to search for:");
+// const found = A.map(item => item.toLowerCase()).includes(userInput.toLowerCase());
+// if (found) {
+//     alert("Yes, the item '" + userInput + "' is found in the list.");
+// } else {
+//     alert("No, the item '" + userInput + "' is not found in the list.");
+// }
+
+// question=8
+// const A = [24, 53, 78, 91, 12];
+
+// const largestNumber = Math.max(...A);
+
+// console.log(The largest number in the array is: ${largestNumber});
 
