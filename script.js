@@ -135,7 +135,7 @@ CHAPTER = 5
 // // }    
 
 
-question=6
+question = 6
 // var celsiusTemp = 25;
 // var fahrenheitTemp = (celsiusTemp * 9/5) + 32;
 // document.write(celsiusTemp + "°C is " + fahrenheitTemp + "°F<br>");
@@ -143,7 +143,7 @@ question=6
 // var celsiusTemp2 = (fahrenheitTemp2 - 32) * 5/9;
 // document.write(fahrenheitTemp2 + "°F is " + celsiusTemp2 + "°C");
 
-question=7  
+question = 7
 // var item1Price = 650;
 // var item2Price = 100;
 // var item1Quantity = 3;
@@ -157,7 +157,7 @@ question=7
 // document.write("Shipping Charges " + shippingCharges + "<br><br>");
 // document.write("Total cost of your order is " + totalCost + " PKR");
 
-question=8
+question = 8
 // var totalMarks = 980;
 // var marksObtained = 804;
 // var percentage = (marksObtained / totalMarks) * 100;
@@ -165,24 +165,24 @@ question=8
 // document.write("Marks obtained: " + marksObtained + "<br>");
 // document.write("Percentage: " + percentage.toFixed(2) + "%");
 
-question=9
+question = 9
 // var usDollars = 10;
 // var saudiRiyals = 25;
 // var totalPKR = (usDollars * 104.80) + (saudiRiyals * 28);
 // document.write("Total currency in PKR: " + totalPKR);
 
-question=10
+question = 10
 // var num = 5;
 // var result = ((num + 5) * 10) / 2;
 // document.write("The result is: " + result);
 
-question=11
+question = 11
 // var currentYear = new Date().getFullYear();
 // var birthYear = 1990;
 // var age = currentYear - birthYear;
 // document.write("Your age is: " + age);
 
-question=12
+question = 12
 // var radius = 20;
 // var circumference = 2 * Math.PI * radius;
 // var area = Math.PI * Math.pow(radius, 2);   
@@ -190,7 +190,7 @@ question=12
 // document.write("The circumference is: " + circumference.toFixed(2) + "<br>");
 // document.write("The area is: " + area.toFixed(2));
 
-question=13
+question = 13
 // var favoriteSnack = "Chocolate Chip";
 // var currentAge = 15;
 // var maxAge = 65;
@@ -198,9 +198,9 @@ question=13
 // var totalSnacksNeeded = (maxAge - currentAge) * 365 * amountPerDay;
 // document.write("You will need " + totalSnacksNeeded + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge);
 
-chapter = 6-8
+chapter = 6 - 8
 
-question=1
+question = 1
 // var a = 10;
 // var b = 5;
 // var c = a + b;
@@ -231,7 +231,7 @@ question=1
 // var result = --a - --b + ++b + b--;
 // document.write("The result is: " + result);
 
-question=2
+question = 2
 // a: 0
 // b: 1
 // result: 1
@@ -239,11 +239,11 @@ question=2
 // var result = --a - --b + ++b + b--;
 
 
-question=3
+question = 3
 // var name = prompt("Enter your name:");
 // alert("Hello, " + name + "! Welcome to JavaScript!");
 
-question=4
+question = 4
 // var number = prompt("Enter a number to show its multiplication table:");
 // number = parseInt(number);
 // if (isNaN(number)) { 
@@ -254,7 +254,7 @@ question=4
 //     document.write(number + " x " + i + " = " + (number * i) + "<br>");
 // }
 
-question=5
+question = 5
 // var subject1 = prompt("Enter name of subject 1:");
 // var subject2 = prompt("Enter name of subject 2:");
 // var subject3 = prompt("Enter name of subject 3:");
@@ -266,7 +266,7 @@ question=5
 // var percentage2 = (marks2 / totalMarks) * 100;
 // var percentage3 = (marks3 / totalMarks) * 100;
 
-question=6
+question = 6
 // var totalMarks = 300;
 // var marks1 = parseInt(prompt("Enter marks obtained in subject 1:"));
 // var marks2 = parseInt(prompt("Enter marks obtained in subject 2:"));
@@ -274,15 +274,15 @@ question=6
 // var totalObtained = marks1 + marks2 + marks3;
 // var percentage = (totalObtained / totalMarks) * 100;
 
-chapter=9-11
+chapter = 9 - 11
 
-question=1
+question = 1
 // var city = prompt("Enter city name:");
 // if (city.toLowerCase() === "karachi") {
 //     alert("Welcome to the city of lights!");
 // }
 
-question=2  
+question = 2
 // var gender = prompt("Enter your gender (male/female):");
 // if (gender.toLowerCase() === "male") {
 //     alert("Good Morning Sir.");          
@@ -292,7 +292,7 @@ question=2
 //     alert("Good Morning!");
 // }
 
-question=3
+question = 3
 // var trafficSignal = prompt("Enter traffic signal color (red/yellow/green):");
 // if (trafficSignal.toLowerCase() === "red") {
 //     alert("Must Stop");
@@ -304,7 +304,7 @@ question=3
 //     alert("Invalid color");
 // }    
 
-question=4
+question = 4
 // var fuel = parseFloat(prompt("Enter remaining fuel in liters:"));
 // if (fuel < 0.25) {
 //     alert("Please refill the fuel in your car");
@@ -312,7 +312,7 @@ question=4
 //     alert("You have enough fuel");
 // }
 
-question=5
+question = 5
 // var a = 4;
 // if (++a === 5) {
 //     alert("given condition for variable a is true");
@@ -350,7 +350,7 @@ question=5
 //     alert("car is smaller than cat");
 // }
 
-question=6
+question = 6
 // var marks1 = parseInt(prompt("Enter marks obtained in subject 1:"));
 // var marks2 = parseInt(prompt("Enter marks obtained in subject 2:"));
 // var marks3 = parseInt(prompt("Enter marks obtained in subject 3:"));
@@ -377,7 +377,7 @@ question=6
 // console.log("Grade: " + grade);
 // console.log("Remarks: " + remarks);
 
-question=7
+question = 7
 // var secretNumber = 7;
 // var userGuess = parseInt(prompt("Guess the secret number (between 1 and 10):"));
 // if (userGuess === secretNumber) {
@@ -388,7 +388,7 @@ question=7
 //     alert("Wrong guess. Try again!");
 // }
 
-question=8
+question = 8
 // var number = parseInt(prompt("Enter a number:"));
 // if (number % 3 === 0) {  
 //     alert(number + " is divisible by 3");
@@ -438,7 +438,7 @@ question=8
 //     alert("The result of " + firstNumber + " " + operation + " " + secondNumber + " is: " + result);
 // }
 
-CHAPTER=12-13
+CHAPTER = 12 - 13
 
 // question=1
 
@@ -564,7 +564,7 @@ CHAPTER=12-13
 // }
 
 
-CHAPTER=14 - 16
+CHAPTER = 14 - 16
 
 // question=1
 
@@ -719,7 +719,7 @@ CHAPTER=14 - 16
 
 // console.log(student)
 
-chapter=17-19
+chapter = 17 - 20
 
 // question=1
 
@@ -727,7 +727,7 @@ chapter=17-19
 // console.log("multiArray")
 
 // question=2
- 
+
 // const matrix = [
 //     [0, 1, 2, 3],
 //     [1, 0, 1, 2],
@@ -806,4 +806,32 @@ chapter=17-19
 // const largestNumber = Math.max(...A);
 
 // console.log(The largest number in the array is: ${largestNumber});
+
+// question = 9
+
+// const A = [24, 53, 78, 91, 12]
+// const smallestNumber = Math.min(...A);
+// console.log(The Smallest Number in the Array is: $(smalllestNumber))
+
+console.log("java chal rahi hai") 
+
+// question=10
+
+// for (let i = 1; i <=100; i++){
+//     if (i % 5 === 0){
+//         console.log(i)
+//     }
+// }
+
+
+let nested = [
+    ["saloaman", "shariq", "fayyan", "naveed"],
+    ["qasim", "abdul", "wahid", "mustafa"]
+]
+for (let i = 0; i<nested.length; i++){
+    console.log(nested[i],[0])
+    }
+
+
+
 
