@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.genpass{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    margin-left: 500px;
+    padding-top: 20px;
+
+}
+
+
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: aqua;
+    border: 3px solid black ;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(12, 241, 12);
+    cursor: pointer;
+    color: white;
+
+}
+
+
+
+p{
+    margin-top: 20px;
+    font-size: 15px;
+}
